@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px auto;
+  width: 90vw;
+  min-width: 600px;
+  max-width: 700px;
+  padding: 2px 2px 8px 2px;
+  background-color: rgb(50, 54, 54);
+  border-radius: 60px;
+  color: aliceblue;
+  border: solid rgb(58, 132, 143) 10px;
+}
+
+._titulo {
+  text-align: center;
+}
+
+.clock {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(76, 78, 78);
+  border-radius: 50px;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+._titulo {
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 50%;
+  font-size: 40px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  background-color: rgb(216, 225, 226);
+  opacity: 0.7;
+}
+
+button:hover {
+  transition-duration: 200ms;
+  opacity: 1;
+  background-color: rgb(109, 115, 115);
+  color: aliceblue;
+}
+.clock {
+  font-size: 50px;
+  /* margin-bottom: 5px; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.cabec_cron {
+  width: 100%;
+  /* border: solid red 1px;   */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: solid red 1px; */
+}
+
+._tit {
+  /* border: solid red 1px; */
+  width: 60%;
+}
+
+._relogio {
+  width: 90px;
+  height: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-right: 5px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  font-size: 15px;
+  border-radius: 15px;
+  background-color: rgb(95, 94, 103);
+  color: rgb(169, 200, 204);
+}
